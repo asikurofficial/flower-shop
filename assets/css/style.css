@@ -124,5 +124,46 @@ header {
     line-height: 35px;
     padding-bottom: 50px;
 }
+.hot-deal-container {
+    display: flex;
+    background: #E554730D;
+}
+.hot-deal-description {
+ width: 67%;
 
+}
+.hot-deal-description h3 {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    padding: 200px 0px 20px 500px;
+
+}
+span{
+color: #E55473;
+}
+.hot-deal-description p {
+    color: #27272799;
+    text-align: center;
+padding: 10px 180px 20px 400px;
+    font-size: 18px;
+    line-height: 30px;
+}
+ .btn {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 45px;
+    border: 0px;
+    border-radius: 8px;
+    background: #E55473;
+    margin-left: 660px;
+    margin-bottom: 150px;
+}
+
+.hot-deal-img{
+width: 33%;
+margin: 100px auto;
+
+}
 /* brand speciality section end */
