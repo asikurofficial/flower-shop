@@ -209,7 +209,7 @@ span {
 
 /* latest deal section start */
 .latest-deal-section {
-    background-image: url('../photos/Rectangle/9.png');
+    background-image: url('../photos/Rectangle 9.png');
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0px 240px 150px 240px;
@@ -247,3 +247,29 @@ span {
 }
 
 /* latest deal section end */
+
+/* footer section start  */
+footer {
+    background: #111010;
+    text-align: center;
+    padding: 130px 650px 150px 650px;
+}
+footer h4 {
+color: white;
+font-size: 48px;
+font-weight: 800;
+}
+footer span {
+color: #E55473;
+}
+footer p {
+    color: white;
+    font-size: 18px;
+    line-height: 30px;
+    margin: 30px auto;
+}
+.copyright {
+    margin: 50px auto;
+}
+
+/* footer section end  */
