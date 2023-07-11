@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap') ;
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
 
 * {
     padding: 0px;
@@ -14,11 +14,46 @@
     border-radius: 8px;
     background: #E55473;
     margin: 40px 100px 40px 240px;
+    cursor: pointer;
 
 }
 
 /* header part start  */
-header {
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #cf4966;
+
+}
+
+nav img {
+    height: 100px;
+    width: 150px;
+    padding-left: 200px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #f8f2f2;
+}
+
+nav ul {
+    display: flex;
+    color: #f8f2f2;
+    font-size: 20px;
+    font-weight: 400;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 50px;
+
+}
+
+.header-container {
     display: flex;
     background: rgba(229, 84, 115, 0.10);
 }
@@ -177,9 +212,7 @@ span {
 /* brand speciality section end */
 
 /* instagram section start */
-.instagram-highlights {
 
-}
 
 .instagram-highlights h3 {
     color: #272727;
@@ -254,20 +287,24 @@ footer {
     text-align: center;
     padding: 130px 650px 150px 650px;
 }
+
 footer h4 {
-color: white;
-font-size: 48px;
-font-weight: 800;
+    color: white;
+    font-size: 48px;
+    font-weight: 800;
 }
+
 footer span {
-color: #E55473;
+    color: #E55473;
 }
+
 footer p {
     color: white;
     font-size: 18px;
     line-height: 30px;
     margin: 30px auto;
 }
+
 .copyright {
     margin: 50px auto;
 }
