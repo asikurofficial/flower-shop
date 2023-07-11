@@ -113,7 +113,7 @@ header {
 .brand-speciality-img-container {
     display: flex;
     justify-content: space-around;
-    padding: 30px 90px 10px 70px;
+    padding: 50px 90px 10px 70px;
 }
 
 .brand-speciality-text-container {
@@ -121,5 +121,8 @@ header {
     justify-content: space-evenly;
     color: #272727CC;
     font-size: 24px;
-    line-height: 35px;}
-    /* brand speciality section end */
+    line-height: 35px;
+    padding-bottom: 50px;
+}
+
+/* brand speciality section end */
